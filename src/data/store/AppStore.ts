@@ -1,5 +1,4 @@
-import {Store} from "pullstate";
+import {createStore} from "redux";
+import {orderReducer} from "./orderReducer";
 
-export const appStore = new Store({
-    screenHeaderName: "",
-});
+export const appStore = createStore(orderReducer);

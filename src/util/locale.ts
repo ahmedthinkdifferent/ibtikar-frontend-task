@@ -8,11 +8,11 @@ export const strings: any = new LocalizedStrings({
         save: "حفظ",
         edit: "تعديل",
         delete: "حذف",
+        show:"عرض",
         confirm: "موافق",
         cancel: "إلغاء",
         addNew: "إضافة جديد",
         id: "#",
-        fullName: "الاسم بالكامل",
         phone: "رقم الهاتف",
         email: "البريد الالكترونى",
         isBlocked: "موقوف",
@@ -26,31 +26,41 @@ export const strings: any = new LocalizedStrings({
             signIn: "تسجيل الدخول",
             rememberMe: "حفظ البيانات",
             email: "البريد الالكترونى",
-            password: "كلمة المرور"
+            password: "كلمة المرور",
+            registerNew: "تسجيل حساب جديد",
+            register: "تسجيل",
+            name: "الاسم",
+            retypedPassword: "كلمة المرور المكررة"
         },
         validation: {
             invalidEmail: "البريد الالكترونى غير صحيح",
             required: "حقل مطلوب",
             minFieldChars: "اقل عدد {0} حروف",
-            minNumChars: "اقل رقم {0}"
+            minNumChars: "اقل رقم {0}",
+            passwordRegxNotMatch: "يجب ان يحتوى على حرف كبير وحرف صغير ورقم",
+            mustNotContainsSpaces: "يجب الا يحتوى على مسافات",
+            passwordsNotMatch: "كلمتى المرور غير متطابقتين"
         },
         alert: {
             pleaseWait: "برجاء الانتظار...",
-            sureDelete: "هل ترغب فى إستكمال الحذف؟"
+            basketIsEmpty:"السلة فارغة"
         },
         dashboard: {
             navigation: "تصفح",
-            dashboard: "الرئيسية",
-            copyrights: "جميع الحقوق محفوظة لتطبيق مسمار 2021",
-            admins: "مديرى النظام"
+            products: "المنتجات",
+            copyrights: "جميع الحقوق محفوظة لابتكار 2021"
         },
-        admins: {
-            role: "التصاريح",
-            roles: {
-                admin: "أدمن",
-                operator: "منظم",
-                viewer: "مشاهد"
-            }
+        products:{
+            addToCard:"إضافة"
+        },
+        basket:{
+            items:"العناصر",
+            order:"أطلب",
+            total:"الاجمالى",
+            completeOrder:"إرسال الطلب",
+            userPhone:"رقم الهاتف",
+            userEmail:"البريد الالكترونى",
+            userAddress:"العنوان"
         }
     }
 });
