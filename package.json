@@ -1,0 +1,74 @@
+{
+  "name": "mismar-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "axios": "^0.21.1",
+    "formik": "^2.2.9",
+    "immer": "^9.0.5",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "pullstate": "^1.22.1",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-data-table-component": "^7.0.0-rc2",
+    "react-dom": "^17.0.2",
+    "react-ifloop-ts": "^1.0.0",
+    "react-localization": "^1.0.17",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^4.3.1",
+    "react-switch": "^6.0.0",
+    "react-toastify": "^7.0.4",
+    "styled-components": "^5.3.0",
+    "sweetalert2-react": "^0.8.3",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-app-env --env-file=local.env start",
+    "build": "react-app-env --env-file=local.env build",
+    "start:dev": "react-app-env --env-file=dev.env start",
+    "build:dev": "react-app-env --env-file=dev.env build",
+    "start:prod": "react-app-env --env-file=prod.env start",
+    "build:prod": "react-app-env --env-file=prod.env build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "react-hooks/exhaustive-deps": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.6",
+    "@types/react-router-dom": "^5.1.8",
+    "@types/react-select": "^4.0.17",
+    "react-app-env": "^1.2.3"
+  }
+}

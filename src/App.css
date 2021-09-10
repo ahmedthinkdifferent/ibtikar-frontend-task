@@ -1,0 +1,75 @@
+button#pagination-first-page {
+    transform: rotate(180deg);
+}
+
+button#pagination-previous-page {
+    transform: rotate(180deg);
+}
+
+button#pagination-next-page {
+    transform: rotate(180deg);
+}
+
+button#pagination-last-page {
+    transform: rotate(180deg);
+}
+
+div.col nav > span {
+    direction: ltr;
+}
+
+@media screen  and (max-width: 1000px) {
+    ul.nav.navbar-nav {
+        height: 60px;
+    }
+
+    div.topbar-left {
+        height: 63px !important;
+    }
+
+    div.topbar-left a.logo {
+        height: 60px !important;
+    }
+
+    div.side-menu {
+        top: 55px;
+    }
+}
+
+@media screen  and (min-width: 1001px) {
+    div.side-menu {
+        display: block !important;
+        width: 250px;
+    }
+
+    div.content-page {
+        margin-right: 250px !important;
+    }
+}
+div[role='columnheader']{
+    font-size: 16px !important;
+}
+div[role='row']{
+    font-size: 16px;
+    font-weight: normal;
+}
+div[role='columnheader'] > div{
+    font-size: 16px;
+    font-weight: bold !important;
+}
+
+div[role='columnheader'] > div{
+    padding: 10px;
+}
+
+div > nav{
+    font-size: 16px !important;
+}
+
+button.btn ,  input.form-control , textarea{
+    font-size: 18px !important;
+}
+
+span.badge{
+    font-size: 15px;
+}
